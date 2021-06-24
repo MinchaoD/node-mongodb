@@ -1,3 +1,4 @@
+// this version is to use module to organize the operations.
 const assert = require('assert').strict;
 
 exports.insertDocument = (db, document, collection, callback) => {
